@@ -17,7 +17,7 @@ public class MySecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-    auth.jdbcAuthentication().dataSource(dataSource);
+        auth.jdbcAuthentication().dataSource(dataSource);
 //        UserBuilder userBuilder = User.withDefaultPasswordEncoder();
 //        auth.inMemoryAuthentication()
 //                .withUser(userBuilder.username("zaur").password("zaur").roles("EMPLOYEE"))
