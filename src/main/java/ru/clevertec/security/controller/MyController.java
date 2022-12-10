@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class MyController {
+
     @GetMapping("/")
     public String getInfoForAllEmployees() {
         return "view_for_all_employees";

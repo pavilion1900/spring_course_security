@@ -1,6 +1,10 @@
 <%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 <!DOCTYPE html>
-<html>
+<html lang="en">
+</head>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
 <h3>Information for all employees</h3>

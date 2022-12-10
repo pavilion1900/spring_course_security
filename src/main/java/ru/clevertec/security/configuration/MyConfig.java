@@ -15,6 +15,7 @@ import java.beans.PropertyVetoException;
 @ComponentScan(basePackages = "ru.clevertec.security")
 @EnableWebMvc
 public class MyConfig {
+
     @Bean
     public ViewResolver viewResolver() {
         InternalResourceViewResolver internalResourceViewResolver =
